@@ -16,7 +16,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #{{ site.color.primary }};
+    /* color: #{{ site.color.primary }}; */
 }
 
 h1,
@@ -546,8 +546,9 @@ button:hover{
 .card{
     background-color: #fff;
     border-radius: 13px;
-    padding: 7rem;
+    padding: 7rem 5rem 7rem 5rem;
     color: #{{ site.color.secondary }};  
+    /* height: 500px; */
 }
 
 .card-title{
@@ -595,7 +596,46 @@ button:hover{
 }
 
 
+/* FAQ */
 
+
+.panel,
+.panel-body {
+  box-shadow: none;
+}
+
+.panel-group .panel-heading {
+  padding: 0;
+}
+
+.panel-group .panel-heading a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  position: relative;
+}
+
+.panel-group .panel-heading a:before {
+  content: '-';
+  float: left;
+}
+
+.panel-group .panel-heading a.collapsed:before {
+  content: '+';
+}
+
+.panel-group .panel-heading a {
+    padding: 3.5rem 0rem 3.5rem 2rem;
+    background-color: #fff;
+    border-top: 5px red;
+}
+.panel-group .panel-heading+.panel-collapse>.panel-body {
+    border-top: none;
+}
+
+.panel{
+    border: none;
+}
 
 
 /* Contact */
