@@ -471,22 +471,6 @@ footer .footer-below {
 
 }
 
-/* About */
-
-#about{
-    background-color: #{{ site.color.secondary-dark }};
-}
-
-#about h2{
-    padding-bottom: 5rem;
-}
-
-#about p{
-    font-weight: 300;
-    letter-spacing: 0.5px;
-    line-height: 3.5rem;
-}
-
 
 /* Header */
 
@@ -502,7 +486,7 @@ footer .footer-below {
 }
 
 header{
-    height: 100vh;
+    height: 80vh;
 }
 
 .skills{
@@ -533,6 +517,82 @@ button:hover{
     margin-right: 1rem;
 }
 
+/* waves */
+
+#waves{
+    background-color: #{{ site.color.primary }};
+}
+
+/* About */
+
+#about{
+    min-height: 100vh;
+    background-color: #{{ site.color.secondary-dark }};
+    
+}
+
+#about h2{
+    padding-bottom: 10rem;
+}
+
+#about p{
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    line-height: 3.5rem;
+}
+
+/* Cards */
+
+.card{
+    background-color: #fff;
+    border-radius: 13px;
+    padding: 7rem;
+    color: #{{ site.color.secondary }};  
+}
+
+.card-title{
+    font-size: 3rem;
+}
+
+/* Owl */
+
+.fa-angle-right{
+    color: #fff;
+}
+
+.fa-angle-right:hover{
+    color: #e0e0e0;
+}
+
+.fa-angle-left{
+    color: #fff;
+}
+
+.fa-angle-left:hover{
+    color: #e0e0e0;
+}
+
+.owl-nav{
+    margin-top: 2rem;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.skill-icon{
+    max-width: 40px;
+    max-height: 40px;
+    margin-right: 0.5rem;
+    display: inline !important;
+}
+
+.icon-wrap{
+    margin: 0rem 0rem 5rem 0rem;
+}
+
+.card-text{
+    font-size: 1.8rem;
+    line-height: 2.7rem !important;
+}
 
 
 
@@ -557,6 +617,7 @@ form .row:first-child .floating-label-form-group {
 #contact .container {
     width: 50% !important;
 }
+
 
 
 

@@ -1,2 +1,5 @@
 {% include css/bootstrap.min.css %}
 {% include css/main.css %}
+{% include css/waves.css %}
+{% include css/owl.carousel.css %}
+{% include css/owl.theme.default.css %}
