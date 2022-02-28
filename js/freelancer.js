@@ -38,36 +38,6 @@ $('.navbar-collapse ul li a').click(function() {
 });
 
 
-$(document).ready(function(){
-    $(".owl-carousel").owlCarousel({
-        navText: ["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"],
-        stagePadding: 50,
-        lazyLoad: false,
-        margin: 20,
-        loop: true,
-        nav: true,
-        dots: false,
-        dotsEach: true,
-        navigation:true,
-        responsiveClass:false,
-        responsive:{
-            0:{
-                items:1,
-            },
-            1000:{
-                items:3,
-            },
-            1200:{
-                items:3,
-            }
-        }
-
-// Go to the next item
-
-
-
-    });
-  });
 
   
   

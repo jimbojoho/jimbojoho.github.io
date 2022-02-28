@@ -124,13 +124,10 @@ header .intro-text .skills {
 }
 
 section {
-    padding: 100px 0;
+    padding-top: 10rem;
 }
 
-section h2 {
-    margin: 0;
-    font-size: 3em;
-}
+
 
 section.success {
     color: #fff;
@@ -204,7 +201,8 @@ section.success {
     }
 }
 
-/* Flexbox Portfolio Grid */
+/* Flexbox Portfolio Grid ---------------------------------------------------------------------------------------------------------------- */
+
 @media (min-width: 640px) {
     .portfolio-flex-grid .portfolio-flex-row {
       display: flex;
@@ -444,9 +442,15 @@ footer .footer-below {
 
 
 
-/* Custom Code */
+/* Custom Code ----------------------------------------------------------------------------------------------------------------  */
+/* General ----------------------------------------------------------------------------------------------------------------  */
 
-/* NAVBAR */
+.section-headers{
+    font-size: 3em;
+    font-weight: 600;
+}
+
+/* NAVBAR ----------------------------------------------------------------------------------------------------------------  */
 
 .navbar-default {
     background-color: #{{ site.color.primary }};
@@ -472,7 +476,7 @@ footer .footer-below {
 }
 
 
-/* Header */
+/* Header ----------------------------------------------------------------------------------------------------------------  */
 
 #profile-pic{
     border-radius: 50px;
@@ -510,20 +514,20 @@ i{
 
 button:hover{
     color:#5565F1 !important;
-    background-color: white;
+    background-color: #fff;
 }
 
 #get-in-touch-btn{
     margin-right: 1rem;
 }
 
-/* waves */
+/* waves ----------------------------------------------------------------------------------------------------------------  */
 
 #waves{
     background-color: #{{ site.color.primary }};
 }
 
-/* About */
+/* About ----------------------------------------------------------------------------------------------------------------  */
 
 #about{
     min-height: 100vh;
@@ -541,43 +545,22 @@ button:hover{
     line-height: 3.5rem;
 }
 
-/* Cards */
+/* Cards ----------------------------------------------------------------------------------------------------------------  */
 
 .card{
     background-color: #fff;
     border-radius: 13px;
     padding: 7rem 5rem 7rem 5rem;
-    color: #{{ site.color.secondary }};  
-    /* height: 500px; */
-}
+    min-height: 500px;
+    color: #{{ site.color.secondary }}; 
+  }
+
 
 .card-title{
     font-size: 3rem;
 }
 
-/* Owl */
-
-.fa-angle-right{
-    color: #fff;
-}
-
-.fa-angle-right:hover{
-    color: #e0e0e0;
-}
-
-.fa-angle-left{
-    color: #fff;
-}
-
-.fa-angle-left:hover{
-    color: #e0e0e0;
-}
-
-.owl-nav{
-    margin-top: 2rem;
-    font-size: 3rem;
-    text-align: center;
-}
+/* Swiper ----------------------------------------------------------------------------------------------------------------  */
 
 .skill-icon{
     max-width: 40px;
@@ -595,13 +578,95 @@ button:hover{
     line-height: 2.7rem !important;
 }
 
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
 
-/* FAQ */
+  .swiper-slide {
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
 
+  .swiper-slide img {
+    display: block;
+    width: 10%;
+    height: 10%;
+    object-fit: cover;
+  }
+
+  .swiper-button-next, .swiper-button-prev{
+    --swiper-theme-color: #fff;
+    position: relative !important;
+    display: inline !important;
+    margin: 0px 15px 0px 15px;
+  
+        font-size: 1px !important;
+  
+  }
+
+  .swiper-nav{
+      margin-top: 5rem;
+      text-align: center;
+      height: 10px;
+  }
+
+  .swiper-pagination{
+      position: relative !important;
+  }
+
+  .swiper-pagination-bullet-active {
+    opacity: var(--swiper-pagination-bullet-opacity, 1);
+    background: #fff !important;
+}
+
+.swiper-pagination-bullet {
+    background: ;
+}
+
+.swiper-slide{
+    /* margin-right: 1.6rem !important; */
+}
+
+/*  Portfolio ----------------------------------------------------------------------------------------------------------------  */
+
+#portfolio{
+    background-color: #{{ site.color.primary }};
+}
+
+/* FAQ ----------------------------------------------------------------------------------------------------------------  */
+
+.faq{
+    background-color: #{{ site.color.primary }};
+}
+
+#faq-h{
+    text-align: center;
+    margin-bottom: 10rem;
+}
+
+.panel-body{
+    background-color: #{{ site.color.primary }};
+    font-family: 'Work Sans', sans-serif;
+    padding-left: 8px;
+}
 
 .panel,
 .panel-body {
   box-shadow: none;
+
+
 }
 
 .panel-group .panel-heading {
@@ -610,35 +675,38 @@ button:hover{
 
 .panel-group .panel-heading a {
   display: block;
-  padding: 10px 15px;
+  padding: 10px 5px;
   text-decoration: none;
   position: relative;
-}
-
-.panel-group .panel-heading a:before {
-  content: '-';
-  float: left;
-}
-
-.panel-group .panel-heading a.collapsed:before {
-  content: '+';
+  font-size: 2.5rem;
+  font-weight: 00;
 }
 
 .panel-group .panel-heading a {
-    padding: 3.5rem 0rem 3.5rem 2rem;
-    background-color: #fff;
-    border-top: 5px red;
+    background-color: #{{ site.color.primary }};
 }
+
+#lets-chat{
+    text-decoration: underline;
+    color: #{{ site.color.secondary }};
+}
+
+#lets-chat:hover{
+    color: #5565F1;
+}
+
 .panel-group .panel-heading+.panel-collapse>.panel-body {
     border-top: none;
 }
 
 .panel{
     border: none;
-}
+} 
 
 
-/* Contact */
+
+
+/* Contact ----------------------------------------------------------------------------------------------------------------  */
 
 #contact{
     background-color: #{{ site.color.secondary-dark }};
