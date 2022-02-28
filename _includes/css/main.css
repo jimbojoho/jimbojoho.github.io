@@ -184,6 +184,7 @@ section.success {
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content i {
     margin-top: -12px;
+    color: #5565F1;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
@@ -336,11 +337,7 @@ footer .footer-below {
     line-height: 45px;
 }
 
-.btn:focus,
-.btn:active,
-.btn.active {
-    outline: 0;
-}
+
 
 .scroll-top {
     z-index: 1049;
@@ -448,6 +445,8 @@ footer .footer-below {
 .section-headers{
     font-size: 3em;
     font-weight: 600;
+    margin-bottom: 10rem;
+    text-align: center;
 }
 
 /* NAVBAR ----------------------------------------------------------------------------------------------------------------  */
@@ -512,10 +511,16 @@ i{
     padding-right: 0.8rem;
 }
 
+.btn-header:hover{
+    color:#5565F1 !important;
+    background-color: #fff;
+}
+
 button:hover{
     color:#5565F1 !important;
     background-color: #fff;
 }
+
 
 #get-in-touch-btn{
     margin-right: 1rem;
@@ -533,10 +538,6 @@ button:hover{
     min-height: 100vh;
     background-color: #{{ site.color.secondary-dark }};
     
-}
-
-#about h2{
-    padding-bottom: 10rem;
 }
 
 #about p{
@@ -645,6 +646,11 @@ button:hover{
     background-color: #{{ site.color.primary }};
 }
 
+.portfolio-grid-img{
+    border-radius: 13px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
 /* FAQ ----------------------------------------------------------------------------------------------------------------  */
 
 .faq{
@@ -659,7 +665,7 @@ button:hover{
 .panel-body{
     background-color: #{{ site.color.primary }};
     font-family: 'Work Sans', sans-serif;
-    padding-left: 8px;
+    padding-left: 6px;
 }
 
 .panel,
@@ -678,7 +684,7 @@ button:hover{
   padding: 10px 5px;
   text-decoration: none;
   position: relative;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 00;
 }
 
@@ -696,12 +702,19 @@ button:hover{
 }
 
 .panel-group .panel-heading+.panel-collapse>.panel-body {
-    border-top: none;
+    /* border-top: none; */
 }
 
 .panel{
     border: none;
 } 
+
+.panel-title{
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+    border-bottom: 0.5px solid #AAABB3;
+}
+
 
 
 
@@ -718,7 +731,6 @@ form .row:first-child .floating-label-form-group {
 
 #contact h2{
     color: #fff;
-    padding-bottom: 5rem;;
 }
 
 
