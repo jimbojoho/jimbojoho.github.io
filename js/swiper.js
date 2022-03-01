@@ -1,5 +1,4 @@
 var swiper = new Swiper(".mySwiper", {
-    centeredSlides: true,
     grabCursor: true,
     rewind: false,
     speed: 500,
@@ -10,6 +9,10 @@ var swiper = new Swiper(".mySwiper", {
     pagination: {
       el: ".swiper-pagination",
       dynamicBullets: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
     },
       breakpoints: {
         1: {
@@ -26,14 +29,6 @@ var swiper = new Swiper(".mySwiper", {
         },
         1024: {
           slidesPerView: 3,
-          spaceBetween: 15,
-        },
-        1440: {
-          slidesPerView: 4,
-          spaceBetween: 15,
-        },
-        1800: {
-          slidesPerView: 5,
           spaceBetween: 15,
         },
       },  
