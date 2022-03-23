@@ -1,7 +1,7 @@
 var swiper = new Swiper(".mySwiper", {
     grabCursor: true,
     rewind: false,
-    speed: 500,
+    speed: 400,
     keyboard: {
         enabled: true,
         onlyInViewport: false,

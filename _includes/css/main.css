@@ -504,7 +504,7 @@ header{
     border-radius: 13px;
     color: #fff;
     padding:1.4rem 2.8rem 1.4rem 2.8rem;
-    transition: 0.2s ease-in-out;
+    transition: 0.1s;
 }
 
 i{
@@ -645,6 +645,7 @@ button:hover{
 
 .nav-arrows{
     margin-top: 3rem;
+
 }
 
 /*  Portfolio ----------------------------------------------------------------------------------------------------------------  */
@@ -656,6 +657,14 @@ button:hover{
 .portfolio-grid-img{
     border-radius: 13px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.portfolio-link{
+    transition: transform 0.2s ;
+}
+
+.portfolio-link:hover{
+    transform: scale(1.04);
 }
 
 /* FAQ ----------------------------------------------------------------------------------------------------------------  */
@@ -743,6 +752,10 @@ form .row:first-child .floating-label-form-group {
 
 #contact .container {
     width: 50% !important;
+}
+
+#contact-header{
+    text-align: center;
 }
 
 
