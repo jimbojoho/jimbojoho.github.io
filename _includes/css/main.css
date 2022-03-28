@@ -550,6 +550,7 @@ button:hover{
     overflow: hidden;
 }
 
+
 /* Cards ----------------------------------------------------------------------------------------------------------------  */
 
 .card{
@@ -587,7 +588,6 @@ button:hover{
     
     position: unset;
     overflow: visible !important;
-
   }
 
   .swiper-slide {
