@@ -2,10 +2,6 @@ var swiper = new Swiper(".mySwiper", {
     grabCursor: true,
     rewind: false,
     speed: 400,
-    keyboard: {
-        enabled: true,
-        onlyInViewport: false,
-      },
     pagination: {
       el: ".swiper-pagination",
       dynamicBullets: true,
