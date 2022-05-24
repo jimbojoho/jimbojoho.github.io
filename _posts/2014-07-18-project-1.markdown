@@ -3,7 +3,7 @@ layout: default
 title: Cambodian Childrens Fund
 modal-id: 1
 img: CCF.jpg
-img2: ccf2.png
+img2: ccf2.jpg
 img3: ccf3.png
 img4: ccf4.png
 img5: ccf5.png
