@@ -1,11 +1,27 @@
 ---
 layout: default
+title: Cambodian Childrens Fund
 modal-id: 1
-date: 2014-07-18
-img: CCF-cover.jpg
-alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+img: CCF.jpg
+img2: ccf2.png
+img3: ccf3.png
+img4: ccf4.png
+img5: ccf5.png
+img6: ccf6.png
+img7: ccf7.png
+img8: ccf8.png
+img9: ccf9.png
+alt: Cover of Cambodian Childrens Fund Brand Guidelines Booklet
+alt2: Page of Cambodian Childrens Fund Brand Guidelines Booklet
+alt3: Page of Cambodian Childrens Fund Brand Guidelines Booklet
+alt4: Page of Cambodian Childrens Fund Brand Guidelines Booklet
+alt5: Page of Cambodian Childrens Fund Brand Guidelines Booklet
+alt6: Page of Cambodian Childrens Fund Brand Guidelines Booklet
+alt7: Page of Cambodian Childrens Fund Brand Guidelines Booklet
+alt8: Page of Cambodian Childrens Fund Brand Guidelines Booklet
+alt9: Page of Cambodian Childrens Fund Brand Guidelines Booklet
+project-date: May 2020
+client: Cambodian Childrens Fund
+category: Graphic Design
+description: The Cambodian Childrens Fund required a new Brand Guidelines booklet which would form the basis of their visual marketing across all future produced materials. Working from a selection of pictures and previous held design assets, I created this booklet in a PDF form.
 ---

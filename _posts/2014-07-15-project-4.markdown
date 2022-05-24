@@ -1,11 +1,11 @@
 ---
 layout: default
+title: Greengrass Yoga
 modal-id: 4
-date: 2014-07-15
-img: placeholder.png
+img: greengrass-yoga.jpg
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
+project-date: Jan 2021
+client: Sophia Greengrass
 category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+description: Initially, Sophia wanted a custom built website with some complex functionality such as an online booking form, but there was not enough budget to accomodate building something like that from the ground up. Upon consultation, I suggested that she go down the route of an online website builder and we both agreed that GoDaddy's new website building tool would deliver what she needed on her site. I helped Sophia by setting up her account, editing pictures, designing the page layout and helped explain how to use the CMS so she could update the site herself in the future.
 ---

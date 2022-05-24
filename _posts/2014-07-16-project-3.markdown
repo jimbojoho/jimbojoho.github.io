@@ -1,11 +1,11 @@
 ---
 layout: default
+title: Sai Kung Magazine Mockup
 modal-id: 3
 date: 2014-07-16
 img: saikung-mag-montage.jpg
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+project-date: June 2013
+category: Graphic Design
+description: When I first arrived in Hong Kong, I came across a job advert that was looking for a new designer to work at a company producing a lifestyle magazine. I didn't have much or a portfolio at the time, so I decided to show the company that I was capable by mocking up a potential design for their magazine (keeping the cover page fairly similar to waht they were already producing) I was quickly offered a job; dissapointingly, at the time the company were unable to sponsor a working visa application.
 ---

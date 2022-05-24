@@ -13,27 +13,59 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <h2>{{ post.title }}</h2>
-                            <hr class="star-primary">
                             <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            
+                            {% if post.img2 %}
+                                <img src="img/portfolio/{{ post.img2 }}" class="img-responsive img-centered" alt="{{ post.alt2 }}">
+                            {% endif %}
+
+                            {% if post.img3 %}
+                                <img src="img/portfolio/{{ post.img3 }}" class="img-responsive img-centered" alt="{{ post.alt3 }}">
+                            {% endif %}
+
+                            {% if post.img4 %}
+                            <img src="img/portfolio/{{ post.img4 }}" class="img-responsive img-centered" alt="{{ post.alt4 }}">
+                            {% endif %}
+
+                            {% if post.img5 %}
+                            <img src="img/portfolio/{{ post.img5 }}" class="img-responsive img-centered" alt="{{ post.alt5 }}">
+                            {% endif %}
+
+                            {% if post.img6 %}
+                            <img src="img/portfolio/{{ post.img6 }}" class="img-responsive img-centered" alt="{{ post.alt6 }}">
+                            {% endif %}
+
+                            {% if post.img7 %}
+                            <img src="img/portfolio/{{ post.img7 }}" class="img-responsive img-centered" alt="{{ post.alt7 }}">
+                            {% endif %}
+
+                            {% if post.img8 %}
+                            <img src="img/portfolio/{{ post.img8 }}" class="img-responsive img-centered" alt="{{ post.alt8 }}">
+                            {% endif %}
+
+                            {% if post.img9 %}
+                            <img src="img/portfolio/{{ post.img9 }}" class="img-responsive img-centered" alt="{{ post.alt9 }}">
+                            {% endif %}
+
                             {% if post.description %}
                                 <p>{{ post.description }}</p>
                             {% endif %}
                             <ul class="list-inline item-details">
                                 {% if post.client %}
                                     <li>Client:
-                                        <strong><a href="http://startbootstrap.com">{{ post.client }}</a>
+                                        <strong>{{ post.client }}
                                         </strong>
                                     </li>
                                 {% endif %}
                                 {% if post.project-date %}
                                     <li>Date:
-                                        <strong><a href="http://startbootstrap.com">{{ post.project-date }}</a>
+                                        <strong>{{ post.project-date }}
                                         </strong>
                                     </li>
                                 {% endif %}
                                 {% if post.category %}
                                     <li>Service:
-                                        <strong><a href="http://startbootstrap.com">{{ post.category }}</a>
+                                        <strong>{{ post.category }}
                                         </strong>
                                     </li>
                                 {% endif %}
