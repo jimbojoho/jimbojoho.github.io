@@ -4,6 +4,7 @@ body {
 
 html {
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 p {
@@ -32,6 +33,19 @@ h6 {
     font-family: 'Work Sans', sans-serif;
     font-weight: 700;
 }
+
+h1 {
+    letter-spacing: -0.2rem;
+}
+
+h5 {
+    letter-spacing: -0.1rem;
+}
+
+
+
+
+
 
 
 .img-centered {
@@ -128,7 +142,7 @@ header .intro-text .skills {
 }
 
 section {
-    padding-top: 10rem;
+    padding-top: 7rem;
 }
 
 
@@ -296,10 +310,6 @@ footer .footer-below {
     outline: 0;
 }
 
-.modal{
-    background-color: red !important;
-}
-
 .portfolio-modal .modal-content {
     padding: 100px 0;
     min-height: 100%;
@@ -404,8 +414,7 @@ footer .footer-below {
 /* General */
 
 .section-headers{
-    font-size: 3em;
-    font-weight: 600;
+    font-size: 6rem;
     margin-bottom: 10rem;
     text-align: left;
 }
@@ -414,7 +423,7 @@ footer .footer-below {
 
 #profile-pic{
     border-radius: 50px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .name{
@@ -507,10 +516,6 @@ svg{
 
 /* Swiper */
 
-
-
- 
-
 .skill-icon{
     max-width: 40px;
     max-height: 40px;
@@ -572,10 +577,9 @@ font-size: 1px !important;
 
 .nav-arrows{
     margin-top: 3rem;
+    user-select: none;
 
 }
-
-
 
 /*  Portfolio */
 
@@ -628,8 +632,8 @@ font-size: 1px !important;
   padding: 0px 5px;
   text-decoration: none;
   position: relative;
-  font-size: 2rem;
-  font-weight: 500;
+  font-size: 1.8rem;
+  font-weight: 600;
 }
 
 .panel-group .panel-heading a {
@@ -646,7 +650,6 @@ font-size: 1px !important;
 }
 
 .panel-group .panel-heading+.panel-collapse>.panel-body {
-    /* border-top: none; */
 }
 
 .panel{
@@ -654,13 +657,13 @@ font-size: 1px !important;
 } 
 
 .panel-title{
-    padding-bottom: 3rem;
-    padding-top: 3rem;
+    padding-bottom: 2.8rem;
+    padding-top: 2.8rem;
     border-bottom: 0.5px solid #AAABB3;
 }
 
-#PLANT{
-    margin-left: 6rem;
+.panel-heading{
+    background-color: #EDF2F4 !important;
 }
 
 
@@ -673,17 +676,15 @@ font-size: 1px !important;
 }
 
 form .row:first-child .floating-label-form-group {
-    border-top: 0px solid red;
+    border-top: 0px solid;
 }
 
-#contact h2{
+#contact h1{
     color: #fff;
 }
 
 
-#contact .container {
-    width: 50% !important;
-}
+
 
 #contact-header{
     text-align: center;
@@ -692,7 +693,8 @@ form .row:first-child .floating-label-form-group {
 #send-btn{
     font-size: 15px;
     border-radius: 13px;
-    background-color: #5565F1;
+    color: #5565F1;
+    background-color: #fff;
     padding: 1.2rem 2.8rem 1.2rem 2.8rem;
     transition: 0.1s;    
 }
